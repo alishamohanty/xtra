@@ -55,7 +55,7 @@ nav  a:hover
 {
     text-decoration: none;
     color:white;
-    font-weight: 600;
+    font-weight: 400;
 }
 nav a::before
 {
@@ -74,8 +74,67 @@ nav a:hover::before
     width: 100%;
 }
 .content {
-    background-color: cornflowerblue;
-    justify-content: center;
-    display:flex;
     margin-top: 2rem;
+}
+.search{
+    width:180px;
+    border-radius: 1rem;
+    padding: 2px;
+    border: none;
+    padding: 3px;
+}
+.fa-shopping-bag {
+    color: #fffff0;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.fa-shopping-cart {
+    color: #fffff0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    width:550px;
+    height:360px;
+    margin-top: 5%;
+    background-color: rgb(228, 209, 213)
+}
+.carou {
+    
+}
+.right {
+    margin-top: 6%;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 5rem;
+    padding: 1rem;
+}
+.xtra {
+    font-size: 9rem;
+    font-weight: 300;
+}
+.right .get_the_latest {
+  margin-top: 3rem;
+  padding-left: 4rem;
+}
+.collection {
+    font-family: 'Calligraffitti', cursive;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.image {
+    height:38vh;
+    width:20vw;
+    margin: 2rem;
+}
+.clothing {
+    margin-top: 7rem;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 3rem;
+    font-weight: 800; 
+    display: flex;
+    justify-content: center;
 }
