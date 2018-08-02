@@ -129,6 +129,7 @@ nav a:hover::before
     height:38vh;
     width:20vw;
     margin: 2rem;
+    cursor: pointer;
 }
 .clothing {
     margin-top: 7rem;
@@ -137,4 +138,14 @@ nav a:hover::before
     font-weight: 800; 
     display: flex;
     justify-content: center;
+}
+.explore {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  border: none;
+  border-radius:2rem; 
+  width: 16rem;
+  height: 3rem;
+  background-color: rgb(18, 36, 53);
+  color: #fffff0;
 }
