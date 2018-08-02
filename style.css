@@ -113,8 +113,8 @@ nav a:hover::before
     padding: 1rem;
 }
 .xtra {
-    font-size: 9rem;
-    font-weight: 300;
+  height: 100px;
+  width:300px;
 }
 .right .get_the_latest {
   margin-top: 3rem;
